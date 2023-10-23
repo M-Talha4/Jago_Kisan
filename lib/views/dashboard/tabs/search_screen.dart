@@ -15,6 +15,7 @@ class SearchScreen extends StatelessWidget {
     height = MediaQuery.of(context).size.height;
 
     return Scaffold(
+      resizeToAvoidBottomInset: true,
       body: Container(
         width: width,
         decoration: const BoxDecoration(
