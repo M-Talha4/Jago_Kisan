@@ -154,7 +154,7 @@ class VerifyPhone extends StatelessWidget {
     return TextFormField(
       controller: textController,
       cursorColor: primary,
-      keyboardType: TextInputType.none,
+      keyboardType: TextInputType.text,
       onChanged: (calue) {},
       decoration: InputDecoration(
         isDense: true,
